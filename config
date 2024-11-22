@@ -1,0 +1,30 @@
+Host serverflazhostcomfh
+  HostName 103.127.97.220
+  User serverflazhostcom
+  Port 14386
+  IdentitiesOnly yes
+
+Host aguadigidev
+  HostName 35.219.9.84
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_rsa
+  User ahmad
+  Port 22
+
+Host serverflazhostcomserver
+  HostName 157.66.56.68
+  User serverflazhostcom
+  Port 14386
+  IdentitiesOnly yes
+
+Host tabularbersinar
+  HostName 157.66.56.87
+  User root
+  Port 22
+  IdentitiesOnly yes
+
+Host setiamotor
+  HostName 103.226.139.196
+  User setiamotor
+  Port 22607
+  IdentitiesOnly yes
